@@ -97,6 +97,19 @@ export const REGISTRO_DE_IDIOMAS = [
     nivel: "em_construcao",
     mantenedor: null,
   },
+  {
+    codigo: "pt-BR-comunidade",
+    nomeNativo: "Português (Comunidade)",
+    rotuloCurto: "PT",
+    // Variante de pt-BR para organizações religiosas e sem fins lucrativos.
+    // Reframe sales terminology: cliente → benfeitor/membro, lead → interessado,
+    // venda → doação/adesão, negócio → relacionamento, produto → iniciativa.
+    // Tudo que não tem tradução específica cai em pt-BR (via traduzir()).
+    tagBcp47: "pt-BR",
+    subtagsDoNavegador: [] as string[], // Não é descoberto pelo navegador — escolha manual apenas
+    nivel: "completo",
+    mantenedor: "Comunidade Católica Shalom",
+  },
 ] as const satisfies readonly IdiomaRegistrado[];
 
 export type IdiomaDoRegistro = (typeof REGISTRO_DE_IDIOMAS)[number];

@@ -34,13 +34,34 @@
 import type { Idioma } from "./idiomas";
 import { TEXTOS_AGENDA_CONFIGURACAO } from "./agenda-configuracao";
 import { TEXTOS_AGENDA_SERVICOS } from "./agenda-servicos";
+import { TEXTOS_COMUNIDADE } from "./traducoes-comunidade";
 
 /** `pt-BR` não aparece: é a chave. Só o que DIFERE precisa de linha. */
 type Traducoes = Record<string, Partial<Record<Exclude<Idioma, "pt-BR">, string>>>;
 
-export const DICIONARIO: Traducoes = {
-  ...TEXTOS_AGENDA_SERVICOS,
-  ...TEXTOS_AGENDA_CONFIGURACAO,
+/**
+ * Mescla dicionários de tradução sem sobrescrever traduções existentes.
+ * Necessário para pt-BR-comunidade não sobrescrever as traduções de es.
+ */
+function mesclarTraducoes(...dicionarios: Traducoes[]): Traducoes {
+  const resultado: Traducoes = {};
+  for (const dic of dicionarios) {
+    for (const [chave, traducoes] of Object.entries(dic)) {
+      if (!resultado[chave]) {
+        resultado[chave] = { ...traducoes };
+      } else {
+        resultado[chave] = { ...resultado[chave], ...traducoes };
+      }
+    }
+  }
+  return resultado;
+}
+
+export const DICIONARIO: Traducoes = mesclarTraducoes(
+  TEXTOS_AGENDA_SERVICOS,
+  TEXTOS_AGENDA_CONFIGURACAO,
+  TEXTOS_COMUNIDADE,
+  {
   "Há um ajuste proporcional esperando pagamento. Escolher outro plano cancela esse ajuste.": { es: "Hay un ajuste proporcional esperando el pago. Elegir otro plan cancela ese ajuste." },
   "Estamos preparando o ajuste proporcional. Aguarde alguns segundos e tente novamente.": { es: "Estamos preparando el ajuste proporcional. Espera unos segundos e inténtalo de nuevo." },
   "Estamos preparando o ajuste proporcional. Aguarde alguns segundos.": { es: "Estamos preparando el ajuste proporcional. Espera unos segundos." },
@@ -16947,7 +16968,8 @@ export const DICIONARIO: Traducoes = {
   "site com problemas": { es: "sitio con problemas" },
   "sem sinais positivos": { es: "sin señales positivas" },
   "verificação pendente": { es: "verificación pendiente" },
-};
+  },
+);
 
 /**
  * Traduz, ou devolve o próprio texto.
@@ -16958,5 +16980,11 @@ export const DICIONARIO: Traducoes = {
  */
 export function traduzir(texto: string, idioma: Idioma): string {
   if (idioma === "pt-BR") return texto;
+  
+  // pt-BR-comunidade fallback: procura tradução específica da variante, depois pt-BR (a chave)
+  if (idioma === "pt-BR-comunidade") {
+    return DICIONARIO[texto]?.["pt-BR-comunidade"] ?? texto;
+  }
+  
   return DICIONARIO[texto]?.[idioma] ?? texto;
 }
