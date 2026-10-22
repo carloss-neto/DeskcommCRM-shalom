@@ -381,6 +381,10 @@ export const TEXTOS_COMUNIDADE: TraducoesComunidade = {
     "pt-BR-comunidade":
       'Para separar quem já é membro, ligue "Membros pela agenda" em Configurações › Tipos de agendamento. Enquanto estiver desligado, todo contato novo entra pela jornada padrão.',
   },
+  'Para separar quem já é cliente, ligue “Clientes pela agenda” em Configurações › Tipos de agendamento. Enquanto estiver desligado, todo contato novo entra pelo funil padrão.': {
+    "pt-BR-comunidade":
+      'Para separar quem já é membro, ligue “Membros pela agenda” em Configurações › Tipos de agendamento. Enquanto estiver desligado, todo contato novo entra pelo jornada padrão.',
+  },
 
   // ─── Customer 360 e contatos ─────────────────────────────────────────────
   "Customer 360 — busque, filtre e gerencie contatos.": {
@@ -763,6 +767,12 @@ export const TEXTOS_COMUNIDADE: TraducoesComunidade = {
   },
 
   // ─── Prospecção e captação ───────────────────────────────────────────────
+  "Prospecção": {
+    "pt-BR-comunidade": "Captação",
+  },
+  "Propostas": {
+    "pt-BR-comunidade": "Convites",
+  },
   "Disparos em massa, prospecção e mensagens que retomam conversa parada só saem nesta janela. Fora dela, o envio fica agendado para a próxima abertura — você vê o motivo na conversa.": {
     "pt-BR-comunidade":
       "Disparos em massa, captação e mensagens que retomam conversa parada só saem nesta janela. Fora dela, o envio fica agendado para a próxima abertura — você vê o motivo na conversa.",
