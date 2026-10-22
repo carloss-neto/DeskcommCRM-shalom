@@ -761,4 +761,43 @@ export const TEXTOS_COMUNIDADE: TraducoesComunidade = {
     "pt-BR-comunidade":
       "Conversas que o agente passou para um atendente humano, a cada 100 mensagens recebidas. Leia como estimativa: no geral o handoff acontece bem depois da primeira mensagem — a taxa real pode ser menor.",
   },
+
+  // ─── Prospecção e captação ───────────────────────────────────────────────
+  "Disparos em massa, prospecção e mensagens que retomam conversa parada só saem nesta janela. Fora dela, o envio fica agendado para a próxima abertura — você vê o motivo na conversa.": {
+    "pt-BR-comunidade":
+      "Disparos em massa, captação e mensagens que retomam conversa parada só saem nesta janela. Fora dela, o envio fica agendado para a próxima abertura — você vê o motivo na conversa.",
+  },
+  "Ligado por padrão: quem escreve no domingo espera resposta no domingo. Desligue se você faz prospecção ativa e prefere não incomodar no fim de semana.": {
+    "pt-BR-comunidade":
+      "Ligado por padrão: quem escreve no domingo espera resposta no domingo. Desligue se você faz captação ativa e prefere não incomodar no fim de semana.",
+  },
+  "Disparos em massa e mensagens que retomam conversa parada só saem nesta janela. A prospecção usa estas horas nos dias próprios abaixo. Fora da janela, o envio fica agendado para a próxima abertura — você vê o motivo na conversa.": {
+    "pt-BR-comunidade":
+      "Disparos em massa e mensagens que retomam conversa parada só saem nesta janela. A captação usa estas horas nos dias próprios abaixo. Fora da janela, o envio fica agendado para a próxima abertura — você vê o motivo na conversa.",
+  },
+  "Dias da prospecção": {
+    "pt-BR-comunidade": "Dias da captação",
+  },
+  "A primeira abordagem da prospecção só sai nestes dias, dentro da janela de disparo acima. Responder a quem escreveu segue a regra própria — desligar o domingo aqui não cala a resposta de domingo.": {
+    "pt-BR-comunidade":
+      "A primeira abordagem da captação só sai nestes dias, dentro da janela de disparo acima. Responder a quem escreveu segue a regra própria — desligar o domingo aqui não cala a resposta de domingo.",
+  },
+  "Marque pelo menos um dia: sem dia marcado a prospecção não aborda ninguém.": {
+    "pt-BR-comunidade": "Marque pelo menos um dia: sem dia marcado a captação não aborda ninguém.",
+  },
+  "Ligado por padrão: quem escreve no domingo espera resposta no domingo. Desligar cala a resposta e os disparos em massa no domingo — a prospecção segue os dias próprios acima.": {
+    "pt-BR-comunidade":
+      "Ligado por padrão: quem escreve no domingo espera resposta no domingo. Desligar cala a resposta e os disparos em massa no domingo — a captação segue os dias próprios acima.",
+  },
+  "Tratar o token como administrador: as permissões marcadas agem com poder de administrador (junto de AGIR no CRM, cria agentes de IA e rascunhos e configura, busca e pausa a prospecção)": {
+    "pt-BR-comunidade":
+      "Tratar o token como administrador: as permissões marcadas agem com poder de administrador (junto de AGIR no CRM, cria agentes de IA e rascunhos e configura, busca e pausa a captação)",
+  },
+  "Não há base legal (LGPD) para o primeiro contato de prospecção com este lead. O time precisa regularizar o cadastro antes de abordar.": {
+    "pt-BR-comunidade":
+      "Não há base legal (LGPD) para o primeiro contato de captação com este interessado. O time precisa regularizar o cadastro antes de abordar.",
+  },
+  "Contato anonimizado a pedido não recebe mensagem, e prospecção sem base legal não sai.": {
+    "pt-BR-comunidade": "Contato anonimizado a pedido não recebe mensagem, e captação sem base legal não sai.",
+  },
 };
