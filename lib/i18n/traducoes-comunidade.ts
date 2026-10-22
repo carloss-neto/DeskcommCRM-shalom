@@ -372,4 +372,393 @@ export const TEXTOS_COMUNIDADE: TraducoesComunidade = {
     "pt-BR-comunidade":
       "Vale só para tipos de atendimento que pedem confirmação. Enquanto o pedido espera, o horário fica reservado e ninguém mais o pega; passado o prazo sem decisão, ele volta a ser oferecido. A pessoa não é avisada, e o pedido continua na fila.",
   },
+
+  // ─── Kanban e separação de pessoas ──────────────────────────────────────
+  "Clientes": {
+    "pt-BR-comunidade": "Membros",
+  },
+  'Para separar quem já é cliente, ligue "Clientes pela agenda" em Configurações › Tipos de agendamento. Enquanto estiver desligado, todo contato novo entra pelo funil padrão.': {
+    "pt-BR-comunidade":
+      'Para separar quem já é membro, ligue "Membros pela agenda" em Configurações › Tipos de agendamento. Enquanto estiver desligado, todo contato novo entra pela jornada padrão.',
+  },
+
+  // ─── Customer 360 e contatos ─────────────────────────────────────────────
+  "Customer 360 — busque, filtre e gerencie contatos.": {
+    "pt-BR-comunidade": "Visão 360 — busque, filtre e gerencie contatos.",
+  },
+  "Clique em Conectar com Google e informe o Customer ID da conta de anúncios.": {
+    "pt-BR-comunidade": "Clique em Conectar com Google e informe o ID da conta de anúncios.",
+  },
+  "Conta de anúncios (Customer ID)": {
+    "pt-BR-comunidade": "Conta de anúncios (ID)",
+  },
+
+  // ─── Settings e configurações ────────────────────────────────────────────
+  "Quem recebe cada cliente novo, e o que cada atendente enxerga.": {
+    "pt-BR-comunidade": "Quem recebe cada pessoa nova, e o que cada atendente enxerga.",
+  },
+  "Quem recebe cada cliente novo, e o que cada atendente enxerga. As duas decisões andam juntas: distribuir sem restringir deixa todo mundo vendo a carteira do colega; restringir sem distribuir deixa o funil de cada um vazio.": {
+    "pt-BR-comunidade":
+      "Quem recebe cada pessoa nova, e o que cada atendente enxerga. As duas decisões andam juntas: distribuir sem restringir deixa todo mundo vendo a carteira do colega; restringir sem distribuir deixa a jornada de cada um vazia.",
+  },
+  "Pedidos de exportação e exclusão de dados feitos por clientes.": {
+    "pt-BR-comunidade": "Pedidos de exportação e exclusão de dados feitos por pessoas.",
+  },
+  "Modelos de proposta": {
+    "pt-BR-comunidade": "Modelos de convite",
+  },
+  "As propostas estão desligadas para esta organização. Para editar os modelos, ligue as propostas em Configurações › Propostas e salve.": {
+    "pt-BR-comunidade":
+      "Os convites estão desligados para esta organização. Para editar os modelos, ligue os convites em Configurações › Convites e salve.",
+  },
+  "Ir para Configurações › Propostas": {
+    "pt-BR-comunidade": "Ir para Configurações › Convites",
+  },
+  "Personalize os modelos da plataforma ou crie os da sua empresa, inclusive a partir de uma proposta que você já usa.": {
+    "pt-BR-comunidade":
+      "Personalize os modelos da plataforma ou crie os da sua organização, inclusive a partir de um convite que você já usa.",
+  },
+  "Devolver ao anúncio as vendas que ele trouxe, e marcar a origem de quem chega pelo site.": {
+    "pt-BR-comunidade": "Devolver ao anúncio as adesões que ele trouxe, e marcar a origem de quem chega pelo site.",
+  },
+  "Devolve ao anúncio da Meta as vendas que ele trouxe.": {
+    "pt-BR-comunidade": "Devolve ao anúncio da Meta as adesões que ele trouxe.",
+  },
+
+  // ─── Propostas comerciais ────────────────────────────────────────────────
+  "Propostas comerciais": {
+    "pt-BR-comunidade": "Convites",
+  },
+  "Propostas já enviadas continuam disponíveis em Propostas.": {
+    "pt-BR-comunidade": "Convites já enviados continuam disponíveis em Convites.",
+  },
+  "continua em Propostas": {
+    "pt-BR-comunidade": "continua em Convites",
+  },
+  "Propostas está desligada nesta organização: o rascunho automático de proposta fica guardado e volta a valer quando alguém ligar em Configurações › Propostas.": {
+    "pt-BR-comunidade":
+      "Convites está desligado nesta organização: o rascunho automático de convite fica guardado e volta a valer quando alguém ligar em Configurações › Convites.",
+  },
+  "Ligado, cada empresa pode ligar em Configurações › Propostas o módulo de proposta comercial: a IA levanta o que o cliente precisa, monta a proposta pelos modelos da empresa e o PDF sai pelo WhatsApp. Desligado, nenhuma empresa vê a tela, o menu nem as ferramentas do agente.": {
+    "pt-BR-comunidade":
+      "Ligado, cada organização pode ligar em Configurações › Convites o módulo de convite: a IA levanta o que a pessoa precisa, monta o convite pelos modelos da organização e o PDF sai pelo WhatsApp. Desligado, nenhuma organização vê a tela, o menu nem as ferramentas do agente.",
+  },
+  "Criar a partir da proposta que a empresa já usa": {
+    "pt-BR-comunidade": "Criar a partir do convite que a organização já usa",
+  },
+  "Envie a proposta em PDF, Markdown (.md) ou texto (.txt).": {
+    "pt-BR-comunidade": "Envie o convite em PDF, Markdown (.md) ou texto (.txt).",
+  },
+  "Não encontrei texto neste arquivo. Se for um PDF escaneado, exporte a proposta original como PDF com texto.": {
+    "pt-BR-comunidade":
+      "Não encontrei texto neste arquivo. Se for um PDF escaneado, exporte o convite original como PDF com texto.",
+  },
+  "Envie um PDF, .md ou .txt de até 5 MB. A IA divide em seções e troca os dados do cliente por campos; você revisa antes de salvar.": {
+    "pt-BR-comunidade":
+      "Envie um PDF, .md ou .txt de até 5 MB. A IA divide em seções e troca os dados da pessoa por campos; você revisa antes de salvar.",
+  },
+  "Envie um PDF, .md ou .txt de até 5 MB. A IA divide em seções, troca por campos o que muda de um cliente e de um projeto para outro, e você revisa antes de salvar.": {
+    "pt-BR-comunidade":
+      "Envie um PDF, .md ou .txt de até 5 MB. A IA divide em seções, troca por campos o que muda de uma pessoa e de um projeto para outro, e você revisa antes de salvar.",
+  },
+  "Arquivo da proposta": {
+    "pt-BR-comunidade": "Arquivo do convite",
+  },
+  "Voltar ao modelo da plataforma? As mudanças da empresa deixam de valer nas próximas propostas.": {
+    "pt-BR-comunidade": "Voltar ao modelo da plataforma? As mudanças da organização deixam de valer nos próximos convites.",
+  },
+  "Remover este modelo? As propostas já enviadas não mudam.": {
+    "pt-BR-comunidade": "Remover este modelo? Os convites já enviados não mudam.",
+  },
+  "Este modelo vai pedir ao cliente:": {
+    "pt-BR-comunidade": "Este modelo vai pedir à pessoa:",
+  },
+  "Este modelo quase não pede nada ao cliente: a IA não saberá o que perguntar. Troque por {{campo}} o que muda de um projeto para outro.": {
+    "pt-BR-comunidade":
+      "Este modelo quase não pede nada à pessoa: a IA não saberá o que perguntar. Troque por {{campo}} o que muda de um projeto para outro.",
+  },
+  "Escreva {{campo}} no texto; a proposta troca pelo valor de cada cliente.": {
+    "pt-BR-comunidade": "Escreva {{campo}} no texto; o convite troca pelo valor de cada pessoa.",
+  },
+  "Não foi possível aplicar a proposta.": {
+    "pt-BR-comunidade": "Não foi possível aplicar o convite.",
+  },
+  "Nenhuma proposta ainda": {
+    "pt-BR-comunidade": "Nenhum convite ainda",
+  },
+  "Nenhuma proposta esperando você": {
+    "pt-BR-comunidade": "Nenhum convite esperando você",
+  },
+  "Só é possível editar o documento de uma proposta em rascunho.": {
+    "pt-BR-comunidade": "Só é possível editar o documento de um convite em rascunho.",
+  },
+  "Só é possível preencher o documento de uma proposta em rascunho.": {
+    "pt-BR-comunidade": "Só é possível preencher o documento de um convite em rascunho.",
+  },
+
+  // ─── IA e agentes ────────────────────────────────────────────────────────
+  "Os materiais que o agente consulta antes de responder sobre o seu negócio.": {
+    "pt-BR-comunidade": "Os materiais que o agente consulta antes de responder sobre o relacionamento.",
+  },
+  "Ele consulta este material antes de responder sobre o seu negócio.": {
+    "pt-BR-comunidade": "Ele consulta este material antes de responder sobre o relacionamento.",
+  },
+  "O dia a dia da venda": {
+    "pt-BR-comunidade": "O dia a dia do relacionamento",
+  },
+  "Preparar a venda": {
+    "pt-BR-comunidade": "Preparar o relacionamento",
+  },
+  "Onde a venda acontece — e o que você define uma vez para ela funcionar.": {
+    "pt-BR-comunidade": "Onde o relacionamento acontece — e o que você define uma vez para ele funcionar.",
+  },
+  "Como o negócio foi no período — e o histórico para quando alguém perguntar por quê.": {
+    "pt-BR-comunidade": "Como o relacionamento foi no período — e o histórico para quando alguém perguntar por quê.",
+  },
+  "Modelo da versão publicada — é o que atende o cliente.": {
+    "pt-BR-comunidade": "Modelo da versão publicada — é o que atende a pessoa.",
+  },
+  "Conversa com o cliente": {
+    "pt-BR-comunidade": "Conversa com a pessoa",
+  },
+  "Passar para uma pessoa quando o cliente falar de assunto jurídico (Procon, advogado, processo)": {
+    "pt-BR-comunidade": "Passar para uma pessoa quando ela falar de assunto jurídico (Procon, advogado, processo)",
+  },
+  "Os fluxos abaixo só entram em ação para um cliente se este agente estiver publicado com follow-up habilitado.": {
+    "pt-BR-comunidade":
+      "Os fluxos abaixo só entram em ação para uma pessoa se este agente estiver publicado com follow-up habilitado.",
+  },
+  "Em que negócios ele pode mexer": {
+    "pt-BR-comunidade": "Em que relacionamentos ele pode mexer",
+  },
+  "Marque os funis que este assistente cuida. Ele conversa com qualquer cliente, mas só move, edita ou encerra negócio dos funis marcados aqui.": {
+    "pt-BR-comunidade":
+      "Marque as jornadas que este assistente cuida. Ele conversa com qualquer pessoa, mas só move, edita ou encerra relacionamento das jornadas marcadas aqui.",
+  },
+  "Sem nenhum funil marcado, ele conversa com os clientes normalmente, mas não mexe em negócio nenhum — nem move, nem encerra, nem marca.": {
+    "pt-BR-comunidade":
+      "Sem nenhuma jornada marcada, ele conversa com as pessoas normalmente, mas não mexe em relacionamento nenhum — nem move, nem encerra, nem marca.",
+  },
+  ", mas ninguém disse ao assistente o que cada etapa desse funil significa — ele vai atender e deixar os negócios parados onde estão.": {
+    "pt-BR-comunidade":
+      ", mas ninguém disse ao assistente o que cada etapa dessa jornada significa — ele vai atender e deixar os relacionamentos parados onde estão.",
+  },
+  "funis em que ninguém disse ao assistente o que cada etapa significa — ele vai atender e deixar os negócios parados onde estão.": {
+    "pt-BR-comunidade":
+      "jornadas em que ninguém disse ao assistente o que cada etapa significa — ele vai atender e deixar os relacionamentos parados onde estão.",
+  },
+  "As conversas novas viram negócio em": {
+    "pt-BR-comunidade": "As conversas novas viram relacionamento em",
+  },
+  ", que não está marcado. O assistente vai atender e os negócios vão se acumular ali sem que ele possa organizá-los.": {
+    "pt-BR-comunidade":
+      ", que não está marcada. O assistente vai atender e os relacionamentos vão se acumular ali sem que ele possa organizá-los.",
+  },
+  "Uma mensagem nova do cliente": {
+    "pt-BR-comunidade": "Uma mensagem nova da pessoa",
+  },
+  "Um de cada vez por cliente": {
+    "pt-BR-comunidade": "Um de cada vez por pessoa",
+  },
+  "Quando o cliente escrever fora do horário, esta mensagem é enviada na hora — uma vez por cliente por período fechado, e só se a IA não responder.": {
+    "pt-BR-comunidade":
+      "Quando a pessoa escrever fora do horário, esta mensagem é enviada na hora — uma vez por pessoa por período fechado, e só se a IA não responder.",
+  },
+  "promessas feitas ao cliente,": {
+    "pt-BR-comunidade": "promessas feitas à pessoa,",
+  },
+  "Quem conversa com o cliente é uma coisa; quem mantém o sistema em dia é outra. Separar os dois evita que o assistente continue prometendo enquanto o agendamento está cheio.": {
+    "pt-BR-comunidade":
+      "Quem conversa com a pessoa é uma coisa; quem mantém o sistema em dia é outra. Separar os dois evita que o assistente continue prometendo enquanto o agendamento está cheio.",
+  },
+  "o assistente continua atendendo e o básico continua sendo registrado sozinho — a etapa do cliente, o retorno que ele prometeu, e o handoff quando dá errado.": {
+    "pt-BR-comunidade":
+      "o assistente continua atendendo e o básico continua sendo registrado sozinho — a etapa da pessoa, o retorno que ele prometeu, e o handoff quando dá errado.",
+  },
+  "Criar rascunho de proposta fica só com o assistente que conversa: ele segue o seu roteiro e sabe quando o cliente já explicou o que precisa.": {
+    "pt-BR-comunidade":
+      "Criar rascunho de convite fica só com o assistente que conversa: ele segue o seu roteiro e sabe quando a pessoa já explicou o que precisa.",
+  },
+  "Esta lista é só deste papel — nada aqui é usado enquanto ele conversa com o cliente. Ligue por jornada de trabalho.": {
+    "pt-BR-comunidade":
+      "Esta lista é só deste papel — nada aqui é usado enquanto ele conversa com a pessoa. Ligue por jornada de trabalho.",
+  },
+  "Sem nada marcado, ele ainda avisa você quando o assistente prometer algo a um cliente e ninguém cumprir — mas não consegue registrar nem mover nada sozinho.": {
+    "pt-BR-comunidade":
+      "Sem nada marcado, ele ainda avisa você quando o assistente prometer algo a uma pessoa e ninguém cumprir — mas não consegue registrar nem mover nada sozinho.",
+  },
+  "Esta resposta usa palavras que o cliente não deveria ver.": {
+    "pt-BR-comunidade": "Esta resposta usa palavras que a pessoa não deveria ver.",
+  },
+  "Mensagem do cliente (sample)": {
+    "pt-BR-comunidade": "Mensagem da pessoa (sample)",
+  },
+  "Data de um campo do negócio": {
+    "pt-BR-comunidade": "Data de um campo do relacionamento",
+  },
+  "Só começar se a equipe já respondeu a última mensagem do cliente": {
+    "pt-BR-comunidade": "Só começar se a equipe já respondeu a última mensagem da pessoa",
+  },
+  "Campo do negócio com a data": {
+    "pt-BR-comunidade": "Campo do relacionamento com a data",
+  },
+  "Depois de 24 horas sem resposta do cliente, só um modelo aprovado no WhatsApp chega até ele.": {
+    "pt-BR-comunidade": "Depois de 24 horas sem resposta da pessoa, só um modelo aprovado no WhatsApp chega até ela.",
+  },
+  "Outro campo do negócio": {
+    "pt-BR-comunidade": "Outro campo do relacionamento",
+  },
+  "Chave do campo do negócio": {
+    "pt-BR-comunidade": "Chave do campo do relacionamento",
+  },
+  "Tempo sem o cliente falar": {
+    "pt-BR-comunidade": "Tempo sem a pessoa falar",
+  },
+  "Da última mensagem do cliente": {
+    "pt-BR-comunidade": "Da última mensagem da pessoa",
+  },
+  "Contar a pausa a partir do último envio deste fluxo (e não da última mensagem do cliente)": {
+    "pt-BR-comunidade": "Contar a pausa a partir do último envio deste fluxo (e não da última mensagem da pessoa)",
+  },
+  "Com um máximo, o fluxo só começa enquanto o silêncio for recente — por exemplo, entre 10 e 60 minutos depois da última mensagem do cliente. Sem máximo, ele pode começar dias depois.": {
+    "pt-BR-comunidade":
+      "Com um máximo, o fluxo só começa enquanto o silêncio for recente — por exemplo, entre 10 e 60 minutos depois da última mensagem da pessoa. Sem máximo, ele pode começar dias depois.",
+  },
+  "Vale para quem já passou por este fluxo e respondeu ou chegou ao fim: ele só recomeça depois deste tempo sem o cliente escrever.": {
+    "pt-BR-comunidade":
+      "Vale para quem já passou por este fluxo e respondeu ou chegou ao fim: ele só recomeça depois deste tempo sem a pessoa escrever.",
+  },
+  "Quando o cliente manda a localização pelo WhatsApp, o sistema consulta o Google e o agente lê a rua e a cidade aproximadas. Sempre peça para ela mandar; nunca peça o endereço por texto.": {
+    "pt-BR-comunidade":
+      "Quando a pessoa manda a localização pelo WhatsApp, o sistema consulta o Google e o agente lê a rua e a cidade aproximadas. Sempre peça para ela mandar; nunca peça o endereço por texto.",
+  },
+  "Vocabulário do tenant para 'lead' (ex: cliente)": {
+    "pt-BR-comunidade": "Vocabulário da organização para 'lead' (ex: interessado)",
+  },
+
+  // ─── Atendimento e interações ────────────────────────────────────────────
+  "Abra o atendimento e diga o que fazer: concluir, pedir informação ao cliente ou passar para uma pessoa.": {
+    "pt-BR-comunidade": "Abra o atendimento e diga o que fazer: concluir, pedir informação à pessoa ou passar para alguém.",
+  },
+  "Onde o dinheiro fica, como o cliente paga e como cada lançamento é classificado.": {
+    "pt-BR-comunidade": "Onde o dinheiro fica, como a pessoa contribui e como cada lançamento é classificado.",
+  },
+  "Como o cliente paga. A conta escolhida aqui é onde esse dinheiro entra quando a comanda é fechada.": {
+    "pt-BR-comunidade": "Como a pessoa contribui. A conta escolhida aqui é onde esse dinheiro entra quando a comanda é fechada.",
+  },
+  "Automático pausado para este cliente": {
+    "pt-BR-comunidade": "Automático pausado para esta pessoa",
+  },
+  "Responder à nova mensagem do cliente": {
+    "pt-BR-comunidade": "Responder à nova mensagem da pessoa",
+  },
+  "Atender o cliente": {
+    "pt-BR-comunidade": "Atender a pessoa",
+  },
+  "Escrever o que o cliente lê e agir no funil durante a conversa.": {
+    "pt-BR-comunidade": "Escrever o que a pessoa lê e agir na jornada durante a conversa.",
+  },
+
+  // ─── Campos e dados ──────────────────────────────────────────────────────
+  "DADOS DO NEGÓCIO": {
+    "pt-BR-comunidade": "DADOS DO RELACIONAMENTO",
+  },
+
+  // ─── IA e aprendizado ────────────────────────────────────────────────────
+  "O padrão recomendado para conversar com o cliente: é o que melhor segue instruções longas e usa as ferramentas do CRM.": {
+    "pt-BR-comunidade":
+      "O padrão recomendado para conversar com a pessoa: é o que melhor segue instruções longas e usa as ferramentas do CRM.",
+  },
+  "Não conversa com o cliente: toma decisões rápidas e baratas — como perceber se o cliente está irritado — geralmente em menos de um segundo.": {
+    "pt-BR-comunidade":
+      "Não conversa com a pessoa: toma decisões rápidas e baratas — como perceber se a pessoa está irritada — geralmente em menos de um segundo.",
+  },
+  "O Jev não conversa com o cliente — falta a chave da sua IA principal.": {
+    "pt-BR-comunidade": "O Jev não conversa com a pessoa — falta a chave da sua IA principal.",
+  },
+  "O que o cliente precisa": {
+    "pt-BR-comunidade": "O que a pessoa precisa",
+  },
+  "Aguardando o cliente responder — a IA avisa você quando tiver a informação.": {
+    "pt-BR-comunidade": "Aguardando a pessoa responder — a IA avisa você quando tiver a informação.",
+  },
+  "A IA avisa o cliente e encerra o assunto.": {
+    "pt-BR-comunidade": "A IA avisa a pessoa e encerra o assunto.",
+  },
+  "Preciso de info do cliente": {
+    "pt-BR-comunidade": "Preciso de info da pessoa",
+  },
+  "A IA pergunta ao cliente e o caso volta pra você quando ele responder.": {
+    "pt-BR-comunidade": "A IA pergunta à pessoa e o caso volta pra você quando ela responder.",
+  },
+  "A IA perguntou ao cliente": {
+    "pt-BR-comunidade": "A IA perguntou à pessoa",
+  },
+  "O cliente respondeu": {
+    "pt-BR-comunidade": "A pessoa respondeu",
+  },
+  "O cliente não respondeu a tempo": {
+    "pt-BR-comunidade": "A pessoa não respondeu a tempo",
+  },
+  "Você pediu uma informação ao cliente": {
+    "pt-BR-comunidade": "Você pediu uma informação à pessoa",
+  },
+  "Quando a IA não tem certeza do que o cliente quer, ela chama este agente em vez de travar a conversa.": {
+    "pt-BR-comunidade": "Quando a IA não tem certeza do que a pessoa quer, ela chama este agente em vez de travar a conversa.",
+  },
+  "Cada intenção descreve uma situação e diz qual agente deve assumir a conversa quando o cliente quer aquilo.": {
+    "pt-BR-comunidade":
+      "Cada intenção descreve uma situação e diz qual agente deve assumir a conversa quando a pessoa quer aquilo.",
+  },
+  "Escreva como explicaria para um atendente novo: em que situação o cliente cai aqui.": {
+    "pt-BR-comunidade": "Escreva como explicaria para um atendente novo: em que situação a pessoa cai aqui.",
+  },
+  "Mandar ao cliente": {
+    "pt-BR-comunidade": "Mandar à pessoa",
+  },
+  "Mandar de novo os dados deste compromisso para o cliente?": {
+    "pt-BR-comunidade": "Mandar de novo os dados deste compromisso para a pessoa?",
+  },
+  "Mandar de novo o link desta reunião para o cliente?": {
+    "pt-BR-comunidade": "Mandar de novo o link desta reunião para a pessoa?",
+  },
+  "Este cliente está sendo atendido neste instante. Espere alguns segundos e tente de novo.": {
+    "pt-BR-comunidade": "Esta pessoa está sendo atendida neste instante. Espere alguns segundos e tente de novo.",
+  },
+  "Ex.: Nunca prometa desconto sem confirmar com um humano. Horário de atendimento: 9h–18h, seg-sex. Sempre chame o cliente pelo primeiro nome.": {
+    "pt-BR-comunidade":
+      "Ex.: Nunca prometa desconto sem confirmar com um humano. Horário de atendimento: 9h–18h, seg-sex. Sempre chame a pessoa pelo primeiro nome.",
+  },
+  "O que os clientes mais quiseram, segundo o que o roteador entendeu de cada conversa.": {
+    "pt-BR-comunidade": "O que as pessoas mais quiseram, segundo o que o roteador entendeu de cada conversa.",
+  },
+  "Quantas vezes o sistema leu o que o cliente queria e escolheu qual atendimento devia responder.": {
+    "pt-BR-comunidade": "Quantas vezes o sistema leu o que a pessoa queria e escolheu qual atendimento devia responder.",
+  },
+  "Seu agente ainda não aprendeu nada neste período. Ele aprende de três jeitos: você publica uma regra na Memória da IA, aprova uma sugestão de melhoria na aba Propostas do agente, ou instala uma habilidade em Skills da IA.": {
+    "pt-BR-comunidade":
+      "Seu agente ainda não aprendeu nada neste período. Ele aprende de três jeitos: você publica uma regra na Memória da IA, aprova uma sugestão de melhoria na aba Sugestões do agente, ou instala uma habilidade em Skills da IA.",
+  },
+  "A tela de Propostas para de sugerir melhorias, e o agente estaciona no desempenho atual.": {
+    "pt-BR-comunidade": "A tela de Sugestões para de sugerir melhorias, e o agente estaciona no desempenho atual.",
+  },
+  "Você ainda não cadastrou a chave da sua IA principal, a que conversa com os clientes.": {
+    "pt-BR-comunidade": "Você ainda não cadastrou a chave da sua IA principal, a que conversa com as pessoas.",
+  },
+  "O que aconteceu com os seus negócios neste período. Para saber se melhorou, mude as datas acima e compare com o mês anterior.": {
+    "pt-BR-comunidade":
+      "O que aconteceu com os seus relacionamentos neste período. Para saber se melhorou, mude as datas acima e compare com o mês anterior.",
+  },
+  "Clientes que o agente marcou como fechados. Negócio que a sua equipe fechou na mão, movendo o cartão no quadro, não entra aqui.": {
+    "pt-BR-comunidade":
+      "Pessoas que o agente marcou como concluídas. Relacionamento que a sua equipe fechou na mão, movendo o cartão no quadro, não entra aqui.",
+  },
+  "Quantas vezes o agente registrou que um cliente mudou de passo no atendimento — o sinal de que a conversa andou, e não só o agente respondeu.": {
+    "pt-BR-comunidade":
+      "Quantas vezes o agente registrou que uma pessoa mudou de passo no atendimento — o sinal de que a conversa andou, e não só o agente respondeu.",
+  },
+  "Conversas que o agente passou para um atendente humano, a cada 100 mensagens recebidas. Leia como estimativa: no geral o handoff acontece bem depois da primeira mensagem — a taxa real pode ser menor.": {
+    "pt-BR-comunidade":
+      "Conversas que o agente passou para um atendente humano, a cada 100 mensagens recebidas. Leia como estimativa: no geral o handoff acontece bem depois da primeira mensagem — a taxa real pode ser menor.",
+  },
 };
