@@ -35,6 +35,7 @@ import { idiomaVisivelPorCodigo } from "./registro";
 const LOCALE_DE_DATA: Record<Idioma, Locale> = {
   "pt-BR": ptBR,
   es,
+  "pt-BR-comunidade": ptBR, // Variante de pt-BR: usa a mesma formatação de data
 };
 
 /** O `Locale` do date-fns para quem está lendo. */
