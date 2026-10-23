@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { redirect } from "next/navigation";
 
 import { requireAuth, resolveActiveOrg } from "@/lib/auth/server";
@@ -6,6 +7,12 @@ import { traduzir } from "@/lib/i18n/dicionario";
 import { ProposalsList } from "./_components/ProposalsList";
 
 export const dynamic = "force-dynamic";
+
+export async function generateMetadata(): Promise<Metadata> {
+  const user = await requireAuth();
+  const title = traduzir("Propostas", user.idioma);
+  return { title };
+}
 
 /**
  * Propostas — as próximas ações que o assistente sugeriu, em lista.

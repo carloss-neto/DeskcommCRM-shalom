@@ -383,7 +383,7 @@ export const TEXTOS_COMUNIDADE: TraducoesComunidade = {
   },
   'Para separar quem já é cliente, ligue “Clientes pela agenda” em Configurações › Tipos de agendamento. Enquanto estiver desligado, todo contato novo entra pelo funil padrão.': {
     "pt-BR-comunidade":
-      'Para separar quem já é membro, ligue “Membros pela agenda” em Configurações › Tipos de agendamento. Enquanto estiver desligado, todo contato novo entra pelo jornada padrão.',
+      'Para separar quem já é membro, ligue “Membros pela agenda” em Configurações › Tipos de agendamento. Enquanto estiver desligado, todo contato novo entra pela jornada padrão.',
   },
 
   // ─── Customer 360 e contatos ─────────────────────────────────────────────
